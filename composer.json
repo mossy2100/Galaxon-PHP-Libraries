@@ -1,0 +1,41 @@
+{
+    "name": "galaxon/lib",
+    "description": "Parent project for the Galaxon PHP libraries.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shaun Moss",
+            "email": "shaun@astromultimedia.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./CodingStandard"
+        },
+        {
+            "type": "path",
+            "url": "./Collections"
+        },
+        {
+            "type": "path",
+            "url": "./Color"
+        },
+        {
+            "type": "path",
+            "url": "./Core"
+        },
+        {
+            "type": "path",
+            "url": "./Math"
+        }
+    ],
+    "require": {
+        "galaxon/coding-standard": "@dev",
+        "galaxon/collections": "@dev",
+        "galaxon/color": "@dev",
+        "galaxon/core": "@dev",
+        "galaxon/math": "@dev"
+    }
+}
