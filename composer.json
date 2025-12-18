@@ -12,23 +12,27 @@
     "repositories": [
         {
             "type": "path",
-            "url": "./CodingStandard"
+            "url": "./packages/CodingStandard"
         },
         {
             "type": "path",
-            "url": "./Collections"
+            "url": "./packages/Collections"
         },
         {
             "type": "path",
-            "url": "./Color"
+            "url": "./packages/Color"
         },
         {
             "type": "path",
-            "url": "./Core"
+            "url": "./packages/Core"
         },
         {
             "type": "path",
-            "url": "./Math"
+            "url": "./packages/Math"
+        },
+        {
+            "type": "path",
+            "url": "./packages/Units"
         }
     ],
     "require": {
@@ -36,6 +40,7 @@
         "galaxon/collections": "@dev",
         "galaxon/color": "@dev",
         "galaxon/core": "@dev",
-        "galaxon/math": "@dev"
+        "galaxon/math": "@dev",
+        "galaxon/units": "@dev"
     }
 }
