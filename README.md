@@ -1,6 +1,6 @@
 # Galaxon PHP Libraries
 
-This is the parent container for the PHP packages and extensions developed by Shaun Moss <shaun@astromultimedia.com>.
+This is the parent container for the PHP packages and extensions developed by Shaun Moss (<shaun@astromultimedia.com>).
 
 It serves only as a backup for local development files.
 
