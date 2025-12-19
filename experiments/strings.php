@@ -33,7 +33,11 @@
 
 //echo null . 'm' . 3;
 
-$unitValid = preg_match('/^(\p{L}+)(-?\d+)?$/u', 'km', $matches);
-var_dump($matches);
-$unitValid = preg_match('/^(\p{L}+)(-?\d+)?$/u', 'km2', $matches);
-var_dump($matches);
+//$unitValid = preg_match('/^(\p{L}+)(-?\d+)?$/u', 'km', $matches);
+//var_dump($matches);
+//$unitValid = preg_match('/^(\p{L}+)(-?\d+)?$/u', 'km2', $matches);
+//var_dump($matches);
+
+if ('34.0' == '34') {
+    echo 'same';
+}

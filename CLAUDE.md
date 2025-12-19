@@ -74,3 +74,36 @@ cd Core
 composer test
 composer analyze
 ```
+
+## Current Project Context
+
+### Instructions
+
+This section needs to be updated every day with answers to the following questions:
+- What have we been working on?
+- Is anything unfinished?
+- What's the current task list?
+- What should be remembered from previous sessions?
+
+Break down into chunks as needed.
+
+Also, record some details about the nature of our working relationship and style of collaboration. Planning work together and each completing different parts. I mostly work on the class code, and you mostly take care of tests and documentation. (I have noticed that when context is cleared, not only is the work history forgotten, but also the relationship.)
+
+---
+
+**Date:** 2025-12-19
+
+### Recent Work
+
+- Updated `packages/Core/docs/Types.md` to conform to the documentation template (`templates/CLASS_TEMPLATE.md`)
+  - Fixed brief description (removed inaccurate "numbers, unsigned integers" reference)
+  - Changed "Background" section to "Overview" with "Key Features" subsection
+  - Reorganized methods into category sections: Inspection, Formatting, Type Checking, Trait-related
+  - Added "Usage Examples" section with three practical examples
+  - Added "See Also" section linking to Floats.md and Stringify.md
+
+### Documentation Template
+
+The `templates/CLASS_TEMPLATE.md` file defines the standard format for class documentation in the `docs/` folders. Other Core docs (Floats.md, Stringify.md, Integers.md, etc.) have already been updated to this format.
+
+### Nothing Currently Unfinished
